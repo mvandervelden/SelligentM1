@@ -38,3 +38,6 @@ Indicating that the binary of this sdk is not suitable to be used on an M1 (ARM)
 iOS apps using the Selligent Mobile SDK cannot be compiled for simulator on new Apple hardware.
 
 While there is a workaround by only running the app on physical devices, this brings severe limitations, because the simulator is often the easiest way for developing and running unit / UI tests. Especially when testing for different kinds of devices, iOS versions, etc.
+
+## Notes
+A similar issue was reported, and fixed for the Google Analytics iOS sdk: https://github.com/firebase/firebase-ios-sdk/issues/7509
