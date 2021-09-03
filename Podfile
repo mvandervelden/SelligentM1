@@ -6,6 +6,6 @@ target 'SelligentM1' do
   use_frameworks!
 
   # Pods for SelligentM1
-  pod 'SelligentMobileSDK', :git => 'https://github.com/SelligentMarketingCloud/MobileSDK-iOS.git'
+  pod 'SelligentMobileSDK/Framework', :git => 'https://github.com/SelligentMarketingCloud/MobileSDK-iOS.git'
 
 end

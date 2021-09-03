@@ -1,10 +1,8 @@
 PODS:
-  - SelligentMobileSDK (2.6.2):
-    - SelligentMobileSDK/Core (= 2.6.2)
-  - SelligentMobileSDK/Core (2.6.2)
+  - SelligentMobileSDK/Framework (2.6.2)
 
 DEPENDENCIES:
-  - SelligentMobileSDK (from `https://github.com/SelligentMarketingCloud/MobileSDK-iOS.git`)
+  - SelligentMobileSDK/Framework (from `https://github.com/SelligentMarketingCloud/MobileSDK-iOS.git`)
 
 EXTERNAL SOURCES:
   SelligentMobileSDK:
@@ -18,6 +16,6 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   SelligentMobileSDK: d061119b81c9c9b6ec900ecbbcf85d7af18c749e
 
-PODFILE CHECKSUM: 0f79162d81a414a3d32b02586bd57b7f947e2703
+PODFILE CHECKSUM: 9b81b2ae3862891bfac7e3c7b4d96418a2396cd6
 
 COCOAPODS: 1.10.2
