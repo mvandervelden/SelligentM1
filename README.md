@@ -1,6 +1,9 @@
 # SelligentM1
 Test Project illustrating the build issues for Simulator when running on an M1 Mac, reported in this [issue](https://github.com/SelligentMarketingCloud/MobileSDK-iOS/issues/9).
 
+## UPDATE 2021/03/09
+Found a solution for the issue, by using the pod `SelligentMobileSDK/Framework` instead of the main pod. This solves the issue, Check out the [`fix` branch](https://github.com/mvandervelden/SelligentM1/compare/fix?expand=1) for details.
+
 ## Environment Used
 * MacBook Pro (13-inch, **M1**, 2020) _[This is crucial to reproduce the issue, it needs to be an M1 based machine]_.
 * macOS Big Sur 11.4
